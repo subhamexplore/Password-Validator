@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body style="text-align: center; margin: 150px 0; background-color: aquamarine">
+    <h1 style="color: rgb(255, 0, 157)">Big Storm</h1>
+    <h2 style="color: rgb(255, 0, 157)">Educational Website</h2>
+    <h3 style="color: rgb(1, 1, 118)">Sign In and Shine More</h3>
+    <form action="" onsubmit="return false">
+        <label for="">Name:</label>
+        <input id="name" type="text" required /><br /><br />
+        <label for="">Email:</label>
+        <input type="email" required /><br /><br />
+        <label for="">Password:</label>
+        <input id="password" type="password" required /><br /><br />
+        <button id="submit" type="submit" style="background-color: rgb(255, 0, 157); border: 2px solid black" onclick="handleSubmit()">
+            Sign in to continue
+        </button>
+    </form>
+    <h3 style="color: rgb(1, 1, 118)" id="success-msg"></h3>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
